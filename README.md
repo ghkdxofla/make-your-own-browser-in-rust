@@ -2,3 +2,4 @@
 
 ## Index
 - [Chapter 1](docs/chapter_1.md)
+- [Chapter 2](docs/chapter_2.md)
