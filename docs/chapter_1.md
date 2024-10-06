@@ -6,6 +6,21 @@ If you haven't already installed Rust, you can do so by running the following co
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
+You'll also need to install `pkg-config` and OpenSSL for some of the dependencies:
+- On Ubuntu, you can install them with the following command:
+  ```sh
+  sudo apt-get update
+  sudo apt-get install -y pkg-config libssl-dev
+  ```
+- On Fedora:
+  ```sh
+  sudo dnf install pkg-config openssl-devel
+  ```
+- On macOS, OpenSSL can be installed via Homebrew:
+  ```sh
+  brew install openssl pkg-config
+  ```
+
 ## 2. Create a new Rust project using Cargo
 Open a terminal and run:
 ```sh
